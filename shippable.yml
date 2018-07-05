@@ -4,7 +4,7 @@ resources:
     type: gitRepo
     integration: "drship_github"
     versionTemplate:
-      sourceName: "devops-recipes/prov_aws_vpc_terraform"
+      sourceName: "sample-organisation/prov_aws_vpc_terraform"
       branch: master
 
 # AWS credentials
