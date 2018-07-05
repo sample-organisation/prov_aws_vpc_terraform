@@ -106,7 +106,7 @@ resource "aws_security_group" "vpc_memcached_sg" {
       "0.0.0.0/0"]
   }
   tags {
-    Name = "demo_pubic_sg"
+    Name = "demo_memcached_sg"
   }
 }
 
