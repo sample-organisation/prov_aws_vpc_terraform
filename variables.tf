@@ -36,3 +36,7 @@ variable "vpc_public_subnet_1_cidr" {
 variable "vpc_access_from_ip_range" {
   description = "Access can be made from the following IPs"
 }
+
+variable "vpc_private_subnet_1_cidr" {
+  description = "Private CIDR for internally accesible subnet"
+}
